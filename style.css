@@ -1,0 +1,30 @@
+body{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    padding: 40px 0;
+    margin: 0;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 50px;
+}
+
+.gallery img{
+    width: 310px;
+    height: 200px;
+    padding: 10px;
+}
+
+.gallery img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
